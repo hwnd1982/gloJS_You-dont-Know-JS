@@ -1,11 +1,12 @@
 document.querySelector('.adv').remove();
+document.body.style.backgroundImage = "url('/image/you-dont-know-js.jpg')";
 
 const 
   books = document.querySelectorAll('.book'),
   sortBookList = function(bookList) {
     let sortList = {};
     const booksBlock = document.querySelector('.books');
-
+    
     bookList.forEach((book) => {
       const bookTitle = document.querySelector('a');
 
